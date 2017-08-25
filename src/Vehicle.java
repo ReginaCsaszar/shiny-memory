@@ -5,13 +5,6 @@ abstract class Vehicle {
     int normalSpeed;
     int currentSpeed;
 
-    public String getName() {
-        return name;
-    }
-
-    public int getDistanceTraveled() {
-        return distanceTraveled;
-    }
 
     void moveForAnHour() {
         distanceTraveled += currentSpeed;
